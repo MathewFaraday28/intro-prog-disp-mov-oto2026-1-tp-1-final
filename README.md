@@ -59,7 +59,7 @@ app/
 
 1. Cloná el repositorio:
    ```bash
-   git clone https://https://github.com/MathewFaraday28/intro-prog-disp-mov-oto2026-1-tp-1-final.git
+   git clone https://github.com/MathewFaraday28/intro-prog-disp-mov-oto2026-1-tp-1-final.git
    ```
 2. Abrí la carpeta del proyecto desde **Android Studio** (`File → Open`)
 3. Esperá a que Gradle sincronice las dependencias
