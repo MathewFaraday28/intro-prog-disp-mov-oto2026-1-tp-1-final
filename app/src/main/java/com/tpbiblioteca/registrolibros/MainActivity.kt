@@ -12,6 +12,7 @@ import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import com.tpbiblioteca.registrolibros.model.Libro
+import com.tpbiblioteca.registrolibros.ui.ListaLibros
 import com.tpbiblioteca.registrolibros.ui.theme.RegistroLibrosTheme
 import java.util.UUID
 
@@ -61,6 +62,16 @@ fun PantallaPrincipal(modifier: Modifier = Modifier) {
     }
 
     Column(modifier = modifier) {
+        /*
+        FormularioLibro(
+            onAgregar = ::agregarLibro
+        )
+
+        ListaLibros(
+            libros = libros,
+            onEliminar = ::eliminarLibro
+        )*/
+
         // TODO: cuando esté FormularioLibro.kt, se llama así:
         // FormularioLibro(onAgregar = ::agregarLibro)
 
