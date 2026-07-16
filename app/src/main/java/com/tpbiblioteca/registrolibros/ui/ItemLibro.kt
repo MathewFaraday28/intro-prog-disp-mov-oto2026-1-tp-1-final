@@ -101,7 +101,7 @@ fun DatoLibro(label: String, value: String) {
 	}
 }
 
-// ejemplo
+
 @Preview(showBackground = true)
 @Composable
 fun ItemLibroPreview() {
