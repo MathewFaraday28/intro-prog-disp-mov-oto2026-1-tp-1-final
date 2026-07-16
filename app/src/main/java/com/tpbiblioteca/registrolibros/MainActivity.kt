@@ -66,11 +66,11 @@ fun PantallaPrincipal(modifier: Modifier = Modifier) {
         FormularioLibro(
             onAgregar = ::agregarLibro
         )
-
+        */
         ListaLibros(
             libros = libros,
             onEliminar = ::eliminarLibro
-        )*/
+        )
 
         // TODO: cuando esté FormularioLibro.kt, se llama así:
         // FormularioLibro(onAgregar = ::agregarLibro)
