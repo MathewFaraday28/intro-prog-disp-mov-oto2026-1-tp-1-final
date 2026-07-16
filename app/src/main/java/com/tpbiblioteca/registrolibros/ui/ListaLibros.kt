@@ -64,7 +64,40 @@ fun ListaLibrosPreview() {
                 anioPublicacion = "1605",
                 genero = "Novela",
                 isbn = "978-8420412146"
+            ),
+            Libro(
+                id = "3",
+                titulo = "Don Quijote",
+                autor = "Miguel de Cervantes",
+                anioPublicacion = "1605",
+                genero = "Novela",
+                isbn = "978-8420412146"
+            ),
+            Libro(
+                id = "3",
+                titulo = "Don Quijote",
+                autor = "Miguel de Cervantes",
+                anioPublicacion = "1605",
+                genero = "Novela",
+                isbn = "978-8420412146"
+            ),
+            Libro(
+                id = "3",
+                titulo = "Don Quijote",
+                autor = "Miguel de Cervantes",
+                anioPublicacion = "1605",
+                genero = "Novela",
+                isbn = "978-8420412146"
+            ),
+            Libro(
+                id = "3",
+                titulo = "Don Quijote",
+                autor = "Miguel de Cervantes",
+                anioPublicacion = "1605",
+                genero = "Novela",
+                isbn = "978-8420412146"
             )
+
         )
 
         Box(
