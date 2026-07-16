@@ -69,7 +69,7 @@ fun PantallaPrincipal(modifier: Modifier = Modifier) {
         */
         ListaLibros(
             libros = libros,
-            onEliminar = ::eliminarLibro
+            onDelete = ::eliminarLibro
         )
 
         // TODO: cuando esté FormularioLibro.kt, se llama así:
