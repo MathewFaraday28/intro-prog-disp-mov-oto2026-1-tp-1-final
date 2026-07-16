@@ -57,10 +57,10 @@ fun PantallaPrincipal(modifier: Modifier = Modifier) {
         )
     }
 
-    fun eliminarLibro(id: String) {
-        libros.removeAll { it.id == id }
+    fun eliminarLibro(libro: Libro) {
+    libros.removeAll { it.id == libro.id }
     }
-
+    
     Column(modifier = modifier) {
         /*
         FormularioLibro(
