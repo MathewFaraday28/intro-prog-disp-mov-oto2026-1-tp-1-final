@@ -14,6 +14,18 @@ import androidx.compose.ui.unit.dp
 import com.tpbiblioteca.registrolibros.model.Libro
 import com.tpbiblioteca.registrolibros.ui.theme.RegistroLibrosTheme
 
+/**
+ * Representa la tarjeta visual (Item) para mostrar la información individual de un Libro.
+ *
+ * Este componente utiliza un diseño de tarjeta (Card) de Material Design 3. Muestra el título
+ * del libro de manera destacada junto a un botón para eliminarlo, y una fila deslizable
+ * horizontalmente con detalles adicionales (Autor, Año, Género, e ISBN).
+ *
+ * libro: El objeto Libro que contiene los datos que se van a renderizar.
+ * onDelete: (función lambda) que se ejecuta cuando el usuario presiona el botón de eliminar.
+ *           Recibe como parámetro el objeto Libro actual para que el contenedor sepa cuál borrar.
+ * modifier: Modificador de Jetpack Compose para personalizar el diseño o comportamiento desde el exterior.
+ */
 @Composable
 fun ItemLibro(
 	libro: Libro,
@@ -76,6 +88,16 @@ fun ItemLibro(
 	}
 }
 
+/**
+ * Un componente visual reutilizable para mostrar un par clave-valor (etiqueta y dato)
+ * dentro de una pequeña cápsula o "chip" estilizado.
+ *
+ * Utiliza un fondo basado en secondaryContainer y bordes redondeados para destacar
+ * visualmente la información dentro de la tarjeta del libro.
+ *
+ * label: El nombre del campo o metadato (ej. "Autor", "ISBN").
+ * value: El valor real de la propiedad que se desea mostrar.
+ */
 @Composable
 fun DatoLibro(label: String, value: String) {
 	Surface(
@@ -101,6 +123,12 @@ fun DatoLibro(label: String, value: String) {
 	}
 }
 
+/**
+ * Previsualización de desarrollo en Android Studio para el componente ItemLibro.
+ *
+ * Permite a los diseñadores y desarrolladores visualizar el componente con datos simulados (mock)
+ * directamente en el editor sin necesidad de compilar o arrancar el emulador.
+ */
 
 @Preview(showBackground = true)
 @Composable
