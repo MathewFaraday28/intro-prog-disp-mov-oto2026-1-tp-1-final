@@ -62,20 +62,12 @@ fun PantallaPrincipal(modifier: Modifier = Modifier) {
     }
     
     Column(modifier = modifier) {
-        /*
         FormularioLibro(
             onAgregar = ::agregarLibro
         )
-        */
         ListaLibros(
             libros = libros,
             onDelete = ::eliminarLibro
         )
-
-        // TODO: cuando esté FormularioLibro.kt, se llama así:
-        // FormularioLibro(onAgregar = ::agregarLibro)
-
-        // TODO: cuando esté ListaLibros.kt, se llama así:
-        // ListaLibros(libros = libros, onEliminar = ::eliminarLibro)
     }
 }
